@@ -1,0 +1,21 @@
+
+
+ .xyz{
+    /* height:"500px"; */
+    width:73%;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   justify-content: center;
+   line-height:25px;
+   font-size:small;
+ }
+ .social{
+     display: inline-flex;
+     margin: 0 200px 0 200px;
+     justify-content: space-between;
+     color: aliceblue;
+     gap:10px;
+ }
+ 
