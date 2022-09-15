@@ -1,13 +1,13 @@
 import React from "react";
-import "./header.css";
+import styles from "./header.module.css";
 import { Link } from "react-router-dom";
 import { SideBar } from "./Sidebar";
 import { Searchbar } from "./Searchbar";
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="headerbox">
+    <div className={styles.header}>
+      <div className={styles.headerbox}>
         <SideBar />
 
         <Link to="/">
@@ -18,7 +18,7 @@ const Header = () => {
           />
         </Link>
 
-        <div className="icon">
+        <div className={styles.icon}>
           <a href="https://www.facebook.com/firstpostin">
             <img
               style={{ marginTop: "13px", width: "25px", height: "25px" }}

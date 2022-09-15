@@ -1,5 +1,9 @@
 import React from 'react';
 import {Routes,Route} from "react-router-dom";
+import Auto from "./pages/Auto";
+import Home from "./pages/Home";
+import Cricket from "./pages/Cricket";
+import Entertainment from "./pages/Entertainment";
 import Health from "./pages/Health";
 import India from "./pages/India";
 import Opinion from "./pages/Opinion";
@@ -9,10 +13,6 @@ import Tech from "./pages/Tech";
 import World from "./pages/World";
 import Navbar from "./pages/Navbar";
 import Homedata from './pages/Homedata';
-import Auto from "./pages/Auto";
-import Home from "./pages/Home";
-import Cricket from "./pages/Cricket";
-import Entertainment from "./pages/Entertainment";
 
 export const AllRoute = () => {
     return (

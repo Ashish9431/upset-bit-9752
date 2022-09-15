@@ -1,4 +1,12 @@
-
+.footerHead{
+    display:flex;
+     justify-content: space-between;
+     line-height: 55px;
+     width:80%;
+     
+     margin-left: 250px;
+ 
+ }
 
  .xyz{
     /* height:"500px"; */

@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
+import styles from "./navbar.module.css"
 
 const Navbar = () => {
   return (
-    <div style={{  width: "100%",
-    height: "40px",
-    border: "1px solid black",
-    boxShadow:"rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px"}}>
+    <div className={styles.navbar}>
       <nav
         style={{
           display: "flex",
@@ -121,8 +119,7 @@ const Navbar = () => {
 
         <img src="https://global-uploads.webflow.com/5e157548d6f7910beea4e2d6/61202102d3810c9bd5b7f134_logo_6e51c82d-b55a-428d-9b27-dd9f58e5685e.png" />
         <a href="https://www.news18.com/netrasuraksha/">
-        {/* https://www.nw18.com/images/Network18logo_K.png */}
-        <img src=" https://www.nw18.com/images/Network18logo_K.png" alt="" />
+          <img src="https://www.firstpost.com/static/images/netrasuraksha_L2_103x25px.jpg" />
         </a>
       </nav>
     </div>

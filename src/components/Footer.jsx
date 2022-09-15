@@ -1,18 +1,55 @@
 import React from "react";
-import "./footer.css";
+import styles from "./footer.module.css";
 
 function Footer() {
   return (
     <>
 
-<div className="icons">
-      
-<img style={{width:"200px" ,height:"50px"}} 
+    <div style={{width: '100%', height: "5px",backgroundColor:"gray",marginTop: "-100px"}}></div>
+      <div className={styles.footerHead}>
+ 
+        
+      <img style={{width:"200px" ,height:"50px"}} 
         src="https://www.kindpng.com/picc/m/151-1512792_firstpost-hd-png-download.png"/>
+        
+        <div className={styles.social}>
 
-</div>
+          <a href="https://www.facebook.com/firstpostin">
+            <img
+              style={{ marginTop: "10px", width: "30px", height: "30px" }}
+              src="https://pnggrid.com/wp-content/uploads/2021/04/facebook-logo-1024x1024.png"
+            />
+          </a>
 
-      <div className="xyz">
+          <a href="https://twitter.com/firstpost">
+            <img
+              style={{ marginTop: "10px", width: "30px", height: "30px" }}
+              src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png"
+            />
+          </a>
+
+          <a href="https://www.instagram.com/firstpost/">
+            <img
+              style={{ marginTop: "10px", width: "30px", height: "30px" }}
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png"
+            />
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCz8QaiQxApLq8sLNcszYyJw/featured">
+            <img
+              style={{
+                marginTop: "10px",
+                width: "30px",
+                height: "30px",
+                borderRadius: "50px",
+              }}
+              src="https://www.dlf.pt/dfpng/middlepng/407-4075505_youtube-red-circle-youtube-icons-png-transparent-png.png"
+            />
+          </a>
+        </div>
+      </div>
+
+      <div className={styles.xyz}>
 
         <div style={{border: "1px solid lightgray",borderLeft:"none"}}>
           <div style={{marginLeft:"20px"}}>
